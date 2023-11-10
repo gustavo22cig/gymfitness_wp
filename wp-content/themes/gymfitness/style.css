@@ -11,3 +11,88 @@
     Text Domain: gymfitness
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700;900&family=Staatliches&display=swap');
+
+:root{
+    --font-principal: 'Raleway', sans-serif;
+    --font-headings: 'Staatliches', sans-serif;
+    /* colores */
+    --primario: #ff5b00;
+    --gris-oscuro:#2f2e2e;
+    --gris-claro: #EBEBEB;
+    --blanco:#FFF;
+    --negro:#000;
+}
+/*---------------------------------------------
+ESTILOS GENERALES
+-----------------------------------------------*/
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /* 10px = 1rem */
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: var(--font-principal);
+    font-size: 18px;
+    font-size: 1.8rem;
+}
+
+h1,h2,h3,h4 {
+    font-family: var(--font-headings);
+    margin: 0 0 5rem 0;
+    line-height: 1.2;
+}
+h1{
+    font-size: 6rem; /*60px*/
+}
+h2{
+    font-size: 4.8rem; /*48px*/
+}
+h3{
+    font-size: 3.6rem; /*36px*/
+}
+h4{
+    font-size: 2.4rem; /*24px*/
+}
+
+/* Global */
+p{
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.contenedor{
+    width: min(95%, 120rem);
+    margin: 0 auto;
+}
+
+/* Utilidades */
+.text-center{
+    text-align: center;
+}
+.texto-primary{
+    color: var(--primario);
+}
+.texto-blanco{
+    color: var(--blanco);
+}
+.seccion{
+    padding: 5rem 0;
+}
+/*------------------------------------*/
+
