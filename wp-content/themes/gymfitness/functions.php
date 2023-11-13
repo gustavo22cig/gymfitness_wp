@@ -2,7 +2,11 @@
 //activar Agregar Imagen(btn Añadir medios)
 function gymfitness_setup(){
 
+    //Imagenes destacadas
     add_theme_support('post-thumbnails');
+
+    //titulos para SEO
+    add_theme_support('title-tag');
 }
 add_action('after_setup_theme','gymfitness_setup');
 
