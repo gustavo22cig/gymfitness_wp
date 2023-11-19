@@ -30,7 +30,7 @@ class GymFitness_Clases_Widget extends WP_Widget
                     ?>
                     <li>
                         <div class="imagen">
-                            <?php the_post_thumbnail('medium'); ?>
+                            <?php the_post_thumbnail( 'thumbnail' ); ?>
                         </div>
                         <div class="contenido-clase">
                             <a href="<?php the_permalink(); ?>">

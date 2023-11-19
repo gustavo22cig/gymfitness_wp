@@ -279,6 +279,42 @@ FOOTER
     text-align: center;
     margin-bottom: 2rem;
 }
+/** Sidebar **/
+.clases-sidebar li{
+    border-bottom: 1px solid var(--gris-claro);
+    padding: 2rem 0;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2rem;
+}
+.clases-sidebar li:last-of-type{
+    border: none;
+}
+.clases-sidebar .contenido-clase h3{
+    margin: 0;
+    font-size: 2.6rem;
+}
+.clases-sidebar .contenido-clase a{
+    color: var(--primario);
+}
+.clases-sidebar .contenido-clase p{
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
